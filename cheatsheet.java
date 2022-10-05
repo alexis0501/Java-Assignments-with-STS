@@ -21,15 +21,14 @@ Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class 
 Solution: spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 
 \\ All application.properties files \\
-# Where are jsp files? HERE!
+
 spring.mvc.view.prefix=/WEB-INF/
-# Data Persistence
-spring.datasource.url=jdbc:mysql://localhost:3306/<<YOUR_SCHEMA_NAME>>
+
+spring.datasource.url=jdbc:mysql://localhost:3306/schema_name_here
 spring.datasource.username=root
-spring.datasource.password=root
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.password=rootroot
 spring.jpa.hibernate.ddl-auto=update
-# For Update and Delete method hidden inputs
+
 spring.mvc.hiddenmethod.filter.enabled=true
 
 1. \\ Dependencies to add to pom.xml file: \\
