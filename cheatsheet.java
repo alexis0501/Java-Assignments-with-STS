@@ -23,13 +23,13 @@ Solution: spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 \\ All application.properties files \\
 
 spring.mvc.view.prefix=/WEB-INF/
-
 spring.datasource.url=jdbc:mysql://localhost:3306/schema_name_here
 spring.datasource.username=root
 spring.datasource.password=rootroot
 spring.jpa.hibernate.ddl-auto=update
-
 spring.mvc.hiddenmethod.filter.enabled=true
+	
+	-Do not have comments in application properties
 
 1. \\ Dependencies to add to pom.xml file: \\
     <!-- DEPENDENCIES FOR STARTING SPRING PROJECTS-->
